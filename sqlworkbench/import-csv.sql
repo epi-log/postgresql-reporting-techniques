@@ -10,7 +10,7 @@ WBimport
 -extension=csv
 -mode=insert
 -truncateTable=true
--batchsize=500
+-batchsize=500;
 
 WBimport
 -file='banned_ip_addresses.csv'
@@ -20,6 +20,6 @@ WBimport
 -extension=csv
 -mode=insert
 -truncateTable=true
--batchsize=500
+-batchsize=500;
 
 COMMIT;
